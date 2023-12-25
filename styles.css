@@ -168,6 +168,7 @@ button:hover{
         background:no-repeat url('./images/bg-main-mobile.png');
         background-size: cover;
         height: 40%;
+        width: 100%;
     }
     .card{
         position: none;
@@ -249,11 +250,16 @@ button:hover{
         font-size: 1rem;
     }
 }
-@media (max-width: 500px)
+@media (max-height: 500px)
 {
-    #cvcnumber{
-        top: 30%;
-        font-size: 0.8rem;
+    .left{
+        padding-bottom: 20rem;
     }
-    
+    .right{
+        height: 10%;
+        padding-top: 2em;
+    }
+    .front{
+        top: 45%;
+    }
 }
