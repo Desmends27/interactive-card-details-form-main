@@ -210,6 +210,15 @@ button:hover{
     .front img{
         width: 80%;
     }
+    .back{
+        top: 15%;
+        left: 20%;
+    }
+    .front{
+        top:305%;
+        left: 30%;
+        z-index: 2;
+    }
     .front p{
         font-size: 0.7rem;
     }
