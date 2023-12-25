@@ -58,17 +58,21 @@ input {
     flex-wrap:wrap;
 }
 .exp{
-    width: 40%;
+    width: 50%;
     margin-right: 2rem;
 }
+
+.exp_inputs input{
+    width: 100%;
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+}
 #year {
-    margin-left: 1rem;
-    width: 40%;
+    width: 38%;
     height: 30%;
-    font-size: 1rem;
 }
 #month{
-    width: 40%;
+    width: 38%;
 }
 #cvc{
     padding: 1.5rem;
@@ -247,5 +251,6 @@ button:hover{
     #cvcnumber{
         top: 30%;
         font-size: 0.8rem;
-    } 
+    }
+    
 }
