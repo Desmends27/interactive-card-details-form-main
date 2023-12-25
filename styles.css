@@ -60,6 +60,7 @@ input {
 .exp{
     width: 40%;
     margin-right: 2rem;
+    text-align: center;
 }
 #year {
     margin-left: 1rem;
